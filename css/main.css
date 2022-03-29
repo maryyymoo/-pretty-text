@@ -261,10 +261,10 @@ textarea {
   }
 }
 .gradient {
-  background-color:
+  background:
     linear-gradient(
-      to bottom, 
-      #374A67,
+      to top, 
+      #9E7B9B,
       #380036, 
       #26081C, 
       #150811);
