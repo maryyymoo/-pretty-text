@@ -72,7 +72,6 @@ body {
   /* Style adjustments for high resolution devices */
 }
 
-================================================================== */
 
    @media (min-width: 1200px) and (max-width:3000px) {
     body {
@@ -85,11 +84,6 @@ body {
     }
   }
 
-@media (min-width: 476px) and (max-width: 1199px) {
-  body {
-    background-color: grey;
-  }
-}
 
   pre,
   blockquote {
