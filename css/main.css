@@ -260,7 +260,7 @@ textarea {
     page-break-after: avoid;
   }
 
-  @media (min-width: 3000px){
+  @media (min-width: 1200px){
     body {
       background-color:  
       linear-gradient(
@@ -272,4 +272,21 @@ textarea {
   }
 } 
 
-  
+@media (max-width: 475px) {
+  body {
+    background-color: aqua;
+  }
+}
+
+@media (min-width: 476px) and (max-width: 1199px) {
+  body {
+    background-color: pink;
+  }
+}
+
+
+@media (min-width: 1200px) {
+  body {
+    background-color: green;
+  }
+}
