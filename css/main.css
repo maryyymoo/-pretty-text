@@ -6,6 +6,27 @@
   <link href="https://fonts.googleapis.com/css2?family=Carrois+Gothic&family=Manrope:wght@400;700&family=Rock+3D&display=swap" rel="stylesheet">);
 }
 
+body {
+	font-family: 'Carrois Gothic', serif;
+	margin-bottom: 200px;
+}
+
+@media (max-width: 475px) {
+  body {
+    font-size: 80%;
+  }
+}
+
+h1,
+h2,
+h3,
+h4,
+h5,
+h6 {
+	/* font-family: 'Carrois Gothic', sans-serif; */
+	font-weight: 700;
+}
+
 html {
   color: #222;
   font-size: 1em;
