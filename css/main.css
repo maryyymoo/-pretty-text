@@ -41,6 +41,9 @@ h6 {
   }
 }
 
+.poem {
+    text-align: justify;
+  }
 
 html {
   color: #222;
@@ -264,13 +267,8 @@ textarea {
       );
   }
 } 
-
-@media (min-width: 1200px) {
+@media (min-width: 476px) and (max-width: 1199px) {
   body {
-    background-color: 
-    linear-gradient(
-      black 
-      white
-    );
+    background-color: grey;
   }
 }
