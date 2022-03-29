@@ -27,6 +27,15 @@ h6 {
 	font-weight: 700;
 }
 
+.title{
+	font-size: 4rem;
+	text-align: center;
+	background-image: url(../img/my-bg-image.jpeg);
+	background-size: cover;
+	padding-top: 60px;
+	padding-bottom: 60px;
+}
+
 html {
   color: #222;
   font-size: 1em;
@@ -81,39 +90,11 @@ fieldset {
   padding: 0;
 }
 
-/*
- * Allow only vertical resizing of textareas.
- */
+
 
 textarea {
   resize: vertical;
 }
-
-/* ==========================================================================
-   Author's custom styles
-   ========================================================================== */
-
-/* ==========================================================================
-   Helper classes
-   ========================================================================== */
-
-/*
- * Hide visually and from screen readers
- */
-
-.hidden,
-[hidden] {
-  display: none !important;
-}
-
-/*
- * Hide only visually, but have it available for screen readers:
- * https://snook.ca/archives/html_and_css/hiding-content-for-accessibility
- *
- * 1. For long content, line feeds are not interpreted as spaces and small width
- *    causes content to wrap 1 word per line:
- *    https://medium.com/@jessebeach/beware-smushed-off-screen-accessible-text-5952a4c2cbfe
- */
 
 .sr-only {
   border: 0;
