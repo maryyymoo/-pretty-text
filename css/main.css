@@ -260,15 +260,16 @@ textarea {
     page-break-after: avoid;
   }
 
-  @media (min-width: none) {
+  @media (min-width: 3000px){
     body {
       background-color:  
       linear-gradient(
       #9E7B9B,
       #380036, 
       #26081C, 
-      #150811 );
+      #150811
+      );
   }
-}
+} 
 
   
