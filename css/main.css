@@ -190,7 +190,7 @@ body {
    https://www.phpied.com/delay-loading-your-print-css/
    ========================================================================== */
 
-   @media (min-width: 1200px){
+   @media (min-width: 1200px) and (max-width:3000px) {
     body {
       background-color:  
       linear-gradient(
@@ -206,13 +206,6 @@ body {
     background-color: grey;
   }
 }
-  }
-
-  }
-
-  pre {
-    white-space: pre-wrap !important;
-  }
 
   pre,
   blockquote {
