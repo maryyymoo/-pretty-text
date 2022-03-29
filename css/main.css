@@ -30,11 +30,17 @@ h6 {
 .title{
 	font-size: 4rem;
 	text-align: center;
-	background-image: url(../img/my-bg-image.jpeg);
+	background-image: url( );
 	background-size: cover;
 	padding-top: 60px;
 	padding-bottom: 60px;
 }
+@media (max-width: 475px) {
+  .title {
+    font-size: 2.5rem;
+  }
+}
+
 
 html {
   color: #222;
