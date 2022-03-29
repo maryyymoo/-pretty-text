@@ -260,17 +260,15 @@ textarea {
     page-break-after: avoid;
   }
 
-  @media (min-width: 1200px) {
+  @media (min-width: none) {
     body {
-      background-color: green;
-    }
-  }
-
-  background-color:
-    linear-gradient(
-      to top, 
+      background-color:  
+      linear-gradient(
       #9E7B9B,
       #380036, 
       #26081C, 
-      #150811);
+      #150811 );
+  }
+}
 
+  
