@@ -44,8 +44,9 @@ h6 {
 
 .edgar {
   text-align: center;
-	width: 100px;
-	height: 90px;
+  max-width: 800px;
+	padding-top: 20px;
+  padding-bottom: 10px
 }
 
 .poem {
