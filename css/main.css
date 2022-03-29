@@ -259,13 +259,18 @@ textarea {
   h3 {
     page-break-after: avoid;
   }
-}
-.gradient {
-  background:
+
+  @media (min-width: 1200px) {
+    body {
+      background-color: green;
+    }
+  }
+
+  background-color:
     linear-gradient(
       to top, 
       #9E7B9B,
       #380036, 
       #26081C, 
       #150811);
-}
+
