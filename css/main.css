@@ -260,4 +260,13 @@ textarea {
     page-break-after: avoid;
   }
 }
-
+.gradient {
+  background-image:
+    linear-gradient(
+      to bottom, 
+      #374A67,
+      #380036, 
+      #26081C, 
+      #150811,
+    );
+}
