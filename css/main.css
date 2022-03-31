@@ -67,18 +67,11 @@ body {
   background-color: grey;
 }
 }
-
-
-   @media (min-width: 1200px) and (max-width:3000px) {
-    body {
-      background-color:  
-      linear-gradient( 
-       #9E7B9B
-      #380036 
-      #26081C
-      #150811)
-    }
+@media (min-width: 2000px) {
+  body {
+    background-color: #9b098f;
   }
+}
 .oof {
   font-family: 'Rock 3D', serif , sans-serif;
 	color: red;
