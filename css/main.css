@@ -80,5 +80,13 @@ body {
     }
   }
 .oof {
-font-family: 'Franklin Gothic Medium', 'Arial Narrow', Arial, sans-serif;
+  font-family: 'Rock 3D', serif , sans-serif;
+	color: red;
+	background-color: rgb(32, 10, 14); 
+}
+
+.background {
+  font-family: 'Rock 3D', serif , sans-serif;
+  font-size: 5rem;
+	text-shadow: 2px 2px 2px red;
 }
